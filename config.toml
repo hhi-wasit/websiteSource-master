@@ -1,15 +1,11 @@
-baseURL = "https://amber.rbind.io/"
+baseURL = "https://ahmed-azeez.github.io/"
 languageCode = "en-us"
-title = "Amber Thomas Data Portfolio & Blog"
+title = "Ahmed Azeez Hasan, PhD | Academic Website"
 theme = "data-science"
-disqusShortname = "amberthomas"
+disqusShortname = ""
 enableEmoji = true
-# allow search engines to search/crawl everything
 enableRobotsTXT = true
-
 preserveTaxonomyNames = true
-
-# sectionPagesMenu = "main"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -20,13 +16,11 @@ preserveTaxonomyNames = true
   category = "categories"
 
 [params]
-  author = "Amber Thomas"
-  description = "A collection of my data science projects and blog posts about R, d3, and everything in between."
-  twitterAuthor = "@ProQuesAsker"
-  twitterSite = "@ProQuesAsker"
-  images = ['logo.jpg']
-
-  # options for highlight.js (version, additional languages, and theme)
+  author = "Ahmed Azeez Hasan, PhD"
+  description = "Academic website of Ahmed Azeez Hasan, PhD, a public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."
+  orcid = "https://orcid.org/0000-0002-9004-9689"
+  website = "https://ahmed-azeez.github.io/"
+  images = ['introImage.svg']
   highlight = true
   highlightjsVersion = "9.15.6"
   highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
@@ -35,15 +29,11 @@ preserveTaxonomyNames = true
   highlightjsThemeLight = ""
   highlightjsThemeDark = ""
 
-
-
-
-
 [params.social]
-  email = "mailto:AmberThomasMSc@gmail.com"
-  twitter = "https://twitter.com/ProQuesAsker"
-  github = "https://www.github.com/ProQuestionAsker"
-  linkedin = "https://www.linkedin.com/in/amberrthomas/"
+  email = "mailto:ahmed.azeez1987@gmail.com"
+  twitter = ""
+  github = ""
+  linkedin = ""
   stackoverflow = ""
   facebook = ""
   instagram = ""

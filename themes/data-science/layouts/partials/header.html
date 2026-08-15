@@ -4,12 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="orcid" content="{{ .Site.Params.orcid }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/opengraph.html" . }}
-  
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <!-- <link rel="icon" type="image/png" href="{{ "imgPath" | relURL }}"> -->
+
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
   <link rel="stylesheet" type="text/css" href="{{ "css/variables.css" | relURL }}">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:300,700|Noto+Sans:400,700" rel="stylesheet">

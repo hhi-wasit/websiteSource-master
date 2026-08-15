@@ -1,15 +1,11 @@
 
-
 {{ partial "header.html" . }}
-<div class="banner" >{{ partial "icon.html" "heart" }}<p>This site is now retired. Find my latest at <a href="https://amberlearns.com">AmberLearns.com</a></p></div>
 <main>
 
-  
   <div class='post-background'>
     <div class='post-gradient'></div>
 
     {{ partial "simple-nav.html" . }}
-    
 
 
     <div class='container-toTop'>
@@ -50,7 +46,11 @@
 
       {{ if .Params.date }}
       <div class="post__date">
+        {{ if .Params.displayDate }}
+        <p>{{ .Params.displayDate }} • {{ .ReadingTime }} min read</p>
+        {{ else }}
         <p>{{ .Date.Format "January 2 2006" }} • {{ .ReadingTime }} min read</p>
+        {{ end }}
       </div>
       {{ end }}
 
@@ -67,8 +67,10 @@
               <img src="{{ .Params.photo }}" alt="" class='post__author-img'>
               <div class='post__author-social'>
                   <span class='post__author-name'>{{ .Params.name }}</span>
-                {{ if.Params.twitter }}
+                {{ if .Params.twitter }}
                   <span class='post__author-twitter'>{{ partial "icon.html" "twitter"}} @{{ .Params.twitter }}</span>
+                {{ else if .Params.orcid }}
+                  <span class='post__author-website'>ORCID</span>
                 {{ else }}
                   <span class='post__author-website'>Website</span>
                 {{ end }}

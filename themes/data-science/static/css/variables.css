@@ -15,18 +15,18 @@
 }
 
 body.light{
-  --accent: #C81937; /* magenta */
-  --content: #1A2849; /* dark blue */
-  --tertiary: #696E84; /* mid blue */
-  --page: #FBE0DE; /* light pink */
-  --drawer: #F4BAB7;
-  --mainShadow: 0px 2px 3px rgba(137, 21, 35, 0.3);
-  --mainShadowHover: 0px 10px 20px rgba(137, 21, 35, 0.2);
-  --elevation: #FEF9F8; /* very light pink */
+  --accent: #1769A6; /* professional sky blue */
+  --content: #17324D; /* deep blue text */
+  --tertiary: #526C84; /* muted blue-gray */
+  --page: #EAF5FC; /* pale sky blue */
+  --drawer: #CBE7F6; /* soft sky blue */
+  --mainShadow: 0px 2px 3px rgba(23, 105, 166, 0.24);
+  --mainShadowHover: 0px 10px 20px rgba(23, 105, 166, 0.18);
+  --elevation: #F7FCFF; /* very light blue */
   --elevationHover: #FFFFFF; /* white */
-  --introGradient: linear-gradient(180deg, #FDF0EF 0%, var(--page) 100%);
+  --introGradient: linear-gradient(180deg, #F4FBFF 0%, var(--page) 100%);
   --codeBG: #FFFFFF;
-  --codeFont: #C81937;
+  --codeFont: #1769A6;
 }
 
 body.dark{
