@@ -2,7 +2,7 @@
 <nav class="nav__simple">
   <div class="nav__content">
     <div class="goHome">
-      <a href="{{ "/" | relURL }}" aria-label="Go back to all posts">{{ partial "icon.html" "arrow-left" }} <span class='scroll-text'>Back to All</span></a>
+      <a href="{{ .Site.Home.RelPermalink }}" aria-label="Go back to all posts">{{ partial "icon.html" "arrow-left" }} <span class='scroll-text'>Back to All</span></a>
     </div>
 
     <p class="nav__title">{{ $.Site.Params.author }} </p>
