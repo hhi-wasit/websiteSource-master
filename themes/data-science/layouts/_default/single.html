@@ -70,7 +70,9 @@
       </div>
       {{ end }}
 
-      {{ if .Params.image }}
+      {{ if .Params.thumbnail }}
+        <img class="post__image" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" alt="{{ .Params.imageAlt | default .Title }}" class="img-responsive">
+      {{ else if .Params.image }}
         <img class="post__image" src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" class="img-responsive">
         {{ if .Params.imageCredit }}
           <p class="post__image-credit">Image by <a href="{{ .Params.imageCreditLink }}">{{ .Params.imageCredit }}</a>

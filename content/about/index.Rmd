@@ -56,3 +56,44 @@ My ongoing research includes a Bayesian hierarchical and negative binomial regre
 ### Profiles and contact
 
 For academic identity and publication information, visit my [personal website](https://ahmed-azeez.github.io/) and [ORCID record](https://orcid.org/0000-0002-9004-9689). I can be contacted at [ahmed.azeez1987@gmail.com](mailto:ahmed.azeez1987@gmail.com). The CV also lists my professional profiles as **Ahmed A. Hasan** on LinkedIn and **Ahmed Azeez** on Google Scholar.
+
+
+### Curriculum vitae
+
+Download my [curriculum vitae](../documents/Ahmed_Azeez_CV.pdf) as a PDF.
+
+### Research methods and focus
+
+My research focuses on how communities can participate effectively in the surveillance of infectious diseases and how public health researchers can measure the social, behavioural, and organisational factors that shape that participation. During my PhD at Universiti Sains Malaysia, I designed and conducted a cross-sectional epidemiological study on community-based infectious disease surveillance in Malaysia and developed, adapted, and validated questionnaire instruments for community leaders and representatives.
+
+My research programme applies exploratory factor analysis, confirmatory factor analysis, Item Response Theory, structural equation modelling, path analysis, and epidemiological study design. These methods support the development of valid instruments and the analysis of relationships between knowledge, attitudes, perceptions, self-efficacy, perceived barriers, perceived benefits, intention, and community participation.
+
+### Teaching and academic mentoring
+
+As a Lecturer at the Higher Health Institute of Wasit, Iraq, I teach undergraduate students in **emergency health, public health, and epidemiology**. I deliver lectures on infectious disease surveillance and research methods, supervise student research, provide academic mentoring, and contribute to curriculum development and wider academic activities.
+
+Before joining the institute, I trained health workers and doctors in Antenatal Care, Integrated Management of Neonatal and Child Health, and Emergency Obstetric and Neonatal Care. I am also a WHO-certified e-instructor with a Training of Trainers qualification.
+
+### Selected publications and scholarly outputs
+
+My doctoral research examined community-based surveillance of infectious diseases, community engagement, questionnaire development, and the social and behavioural factors associated with participation. Selected outputs include:
+
+- Hasan, A. A., Ghazali, A. K., Bachok, N., Yaacob, N. M., Hairon, S. M., Nadir, N. A. M., & Shukri, F. M. (2025). **Modeling the determinants of community engagement in community-based surveillance of infectious diseases: Applying the Health Belief Model.** *Journal of Public Health Research*, 14, 1–10.
+- Hasan, A. A., Ghazali, A. K., Bachok, N., Yaacob, N. M., Hairon, S. M., Nadir, N. A. M., & Shukri, F. (2025). **A confirmatory analysis of the knowledge, attitudes, and perceptions questionnaire for community-based surveillance of infectious diseases: A cross-sectional study in Malaysia.** *Osong Public Health and Research Perspectives*, 16, 229–241.
+- Hasan, A. A., Ghazali, A. K., Bachok, N., Yaacob, N. M., Hairon, S. M., Nadir, N. A. M., & Shukri, F. M. (2025). **Community participation in community-based surveillance of infectious diseases: A structural equation modeling approach based on the theory of reasoned action.** *International Journal of One Health*, 11(1), 178–185.
+- Hasan, A. A., Bachok, N., Yaacob, N. M., Hairon, S. M., Nadir, N. A. M., & Ghazali, A. K. (2025). **Assessing community leaders’ knowledge, attitudes, and perceptions on community-based surveillance of infectious diseases: Development and validation of a questionnaire.** *Medical Journal of Babylon*, 22, 156–163.
+- Hasan, A. A., Ghazali, A. K., Bachok, N., Yaacob, N. M., Hairon, S. M., & Nadira, A. (2026). **Role of self-efficacy in mediating the effect between perceived barriers and benefits and intention to be involved in community-based surveillance of infectious diseases.** In *Building inclusive sustainability: Pathways to policy, community development & environmental innovation* (pp. 61–70). Universiti Pendidikan Sultan Idris.
+- Hasan, A. A., Ghazali, A. K., Bachok, N. A., Yaacob, N. M., Hairon, S. M., Nadir, N. A. M., & Shukri, F. M. (2026). **Modeling social and behavioral factors associated with community participation in community-based surveillance of communicable diseases: A cross-sectional study in Kelantan, Malaysia.** *Osong Public Health and Research Perspectives*.
+- **Development and validation of a knowledge, attitudes, and perceptions questionnaire for community-based surveillance of infectious diseases among Malaysian community representatives.** *BMC Public Health*. Under review.
+- Hasan, A. A., Ghazali, A. K., Alkinani, A. A., & Jumaa, R. M. **Understanding community engagement in infectious disease surveillance: A multi-theoretical predictive model.** *IIUM Medical Journal Malaysia*. Accepted.
+
+### Conferences and ongoing research
+
+During the PhD period, I presented research at the following international conferences and seminars:
+
+- **14th IMT-GT UNINET Bioscience Conference 2025** — Oral Presenter, February 2025.
+- **1st Kedah International Health Conference 2025** — Oral Presenter, July 2025.
+- **4th International Conference on Medical and Health Sciences**, held in conjunction with the ASEAN Research Collaborative Fund Symposium and the 25th National Conference on Medical and Health Sciences — Poster Presenter, September 2025.
+- **Social Science Postgraduate International Seminar**, Universiti Sains Malaysia — Oral Presenter, September 2025.
+
+My current research activities include a study of the **spatiotemporal dynamics of four zoonotic public health threats in Wasit Governorate, Iraq, from 2022 to 2025**, using Bayesian hierarchical and negative binomial regression analysis. I am also working on the **cross-cultural adaptation and psychometric validation of an Arabic version of the Knowledge, Attitudes, and Practices questionnaire for breast cancer screening**.

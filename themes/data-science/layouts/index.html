@@ -5,8 +5,11 @@
 
 	<body>
     {{ partial "homepage-intro.html" . }}
-    {{ partial "portfolio.html" . }}
-		{{ partial "scripts.html" . }}
+    {{ $posts := where .Site.RegularPages "Type" "post" }}
+    {{ if gt (len $posts) 0 }}
+      {{ partial "portfolio.html" . }}
+    {{ end }}
+			{{ partial "scripts.html" . }}
 	</body>
 
 	<footer class='footer__home'>
