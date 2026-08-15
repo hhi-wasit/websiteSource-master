@@ -4,14 +4,14 @@ type: post
 date: 2026-02-20
 displayDate: "2026"
 authors:
-  - Ahmed Azeez Hasan
+  - Ahmed Azeez
 categories:
   - Experience
 tags:
   - Academic Positions
   - Community Health
   - Public Health
-description: "Ahmed Azeez Hasan’s academic and applied public-health experience in Iraq and Malaysia."
+description: "Ahmed Azeez’s academic and applied public-health experience in Iraq and Malaysia."
 ---
 
 ### Lecturer · Higher Health Institute of Wasit, Iraq

@@ -4,14 +4,14 @@ type: post
 date: 2026-01-15
 displayDate: "2026"
 authors:
-  - Ahmed Azeez Hasan
+  - Ahmed Azeez
 categories:
   - Publications
 tags:
   - Infectious Disease Epidemiology
   - Public Health
   - Scholarly Work
-description: "Selected peer-reviewed articles and a book chapter from Ahmed Azeez Hasan’s research on community-based infectious disease surveillance."
+description: "Selected peer-reviewed articles and a book chapter from Ahmed Azeez’s research on community-based infectious disease surveillance."
 ---
 
 My doctoral research examined community-based surveillance of infectious diseases, community engagement, questionnaire development, and the social and behavioural factors associated with participation.

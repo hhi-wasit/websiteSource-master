@@ -11,7 +11,7 @@ features = []
 min_version = "0.38"
 
 [author]
-  name = "Ahmed Azeez Hasan, PhD"
+  name = "Ahmed Azeez"
   homepage = "https://ahmed-azeez.github.io/"
 
 # If porting an existing theme

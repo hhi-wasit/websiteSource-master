@@ -4,14 +4,14 @@ type: post
 date: 2026-03-01
 displayDate: "2026"
 authors:
-  - Ahmed Azeez Hasan
+  - Ahmed Azeez
 categories:
   - Research Activity
 tags:
   - Conferences
   - Presentations
   - Ongoing Work
-description: "Ahmed Azeez Hasan’s documented conference presentations and current public-health research projects."
+description: "Ahmed Azeez’s documented conference presentations and current public-health research projects."
 ---
 
 ### Conference presentations

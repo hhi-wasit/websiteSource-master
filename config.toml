@@ -1,6 +1,6 @@
 baseURL = "https://hhi-wasit.github.io/websiteSource-master/"
 languageCode = "en-us"
-title = "Ahmed Azeez Hasan, PhD | Academic Website"
+title = "Ahmed Azeez | Academic Website"
 theme = "data-science"
 disqusShortname = ""
 enableEmoji = true
@@ -16,8 +16,8 @@ preserveTaxonomyNames = true
   category = "categories"
 
 [params]
-  author = "Ahmed Azeez Hasan, PhD"
-  description = "Academic website of Ahmed Azeez Hasan, PhD, a public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."
+  author = "Ahmed Azeez"
+  description = "Academic website of Ahmed Azeez, a public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."
   orcid = "https://orcid.org/0000-0002-9004-9689"
   website = "https://ahmed-azeez.github.io/"
   images = ['introImage.svg']

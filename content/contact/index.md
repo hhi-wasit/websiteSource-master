@@ -9,4 +9,4 @@ You can email me at [ahmed.azeez1987@gmail.com](mailto:ahmed.azeez1987@gmail.com
 
 My academic website is [ahmed-azeez.github.io](https://ahmed-azeez.github.io/), and my researcher identifier is [ORCID 0000-0002-9004-9689](https://orcid.org/0000-0002-9004-9689).
 
-The CV lists my professional profiles as **Ahmed A. Hasan** on LinkedIn and **Ahmed Azeez Hasan** on Google Scholar.
+The CV lists my professional profiles as **Ahmed A. Hasan** on LinkedIn and **Ahmed Azeez** on Google Scholar.

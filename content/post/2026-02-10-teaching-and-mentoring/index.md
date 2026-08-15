@@ -4,14 +4,14 @@ type: post
 date: 2026-02-10
 displayDate: "2026"
 authors:
-  - Ahmed Azeez Hasan
+  - Ahmed Azeez
 categories:
   - Teaching
 tags:
   - Public Health Education
   - Epidemiology
   - Mentoring
-description: "Ahmed Azeez Hasan’s teaching, student supervision, academic mentoring, and health-worker training experience."
+description: "Ahmed Azeez’s teaching, student supervision, academic mentoring, and health-worker training experience."
 ---
 
 I am a Lecturer at the Higher Health Institute of Wasit, Iraq. My teaching and academic activities are centred on helping students develop practical public health knowledge, research skills, and the ability to interpret epidemiological evidence.

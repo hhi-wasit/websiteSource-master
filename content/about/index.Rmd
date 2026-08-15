@@ -25,13 +25,13 @@ I am a public health professional and researcher specialising in the epidemiolog
 
 </div>
 <div class='headerImg'>
-<img src="../images/introImage.svg" alt="Illustration of a researcher working with data">
+<img src="../images/ahmed-azeez.jpg" alt="Portrait of Ahmed Azeez">
 </div>
 </div>
 
 ### The Long Version
 
-I am **Ahmed Azeez Hasan, PhD**, a lecturer and public health researcher based in Iraq. My academic work focuses on community-based surveillance of infectious diseases and the social, behavioural, and measurement factors that influence community participation in public health programmes.
+I am **Ahmed Azeez**, a lecturer and public health researcher based in Iraq. My academic work focuses on community-based surveillance of infectious diseases and the social, behavioural, and measurement factors that influence community participation in public health programmes.
 
 I completed a **PhD in Community Medicine and Public Health** at Universiti Sains Malaysia from 2021 to 2025, specialising in the epidemiology of infectious diseases. During my doctoral research, I designed and conducted a cross-sectional epidemiological study on community-based infectious disease surveillance in Malaysia. I also developed, adapted, and validated questionnaire instruments for community leaders and representatives using exploratory and confirmatory factor analysis, Item Response Theory, structural equation modelling, and path analysis.
 
@@ -55,4 +55,4 @@ My ongoing research includes a Bayesian hierarchical and negative binomial regre
 
 ### Profiles and contact
 
-For academic identity and publication information, visit my [personal website](https://ahmed-azeez.github.io/) and [ORCID record](https://orcid.org/0000-0002-9004-9689). I can be contacted at [ahmed.azeez1987@gmail.com](mailto:ahmed.azeez1987@gmail.com). The CV also lists my professional profiles as **Ahmed A. Hasan** on LinkedIn and **Ahmed Azeez Hasan** on Google Scholar.
+For academic identity and publication information, visit my [personal website](https://ahmed-azeez.github.io/) and [ORCID record](https://orcid.org/0000-0002-9004-9689). I can be contacted at [ahmed.azeez1987@gmail.com](mailto:ahmed.azeez1987@gmail.com). The CV also lists my professional profiles as **Ahmed A. Hasan** on LinkedIn and **Ahmed Azeez** on Google Scholar.

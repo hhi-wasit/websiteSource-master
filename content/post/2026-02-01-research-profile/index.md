@@ -4,14 +4,14 @@ type: post
 date: 2026-02-01
 displayDate: "2026"
 authors:
-  - Ahmed Azeez Hasan
+  - Ahmed Azeez
 categories:
   - Research
 tags:
   - Epidemiology
   - Biostatistics
   - Surveillance
-description: "An overview of Ahmed Azeez Hasan’s research in infectious disease epidemiology, community surveillance, and quantitative public health methods."
+description: "An overview of Ahmed Azeez’s research in infectious disease epidemiology, community surveillance, and quantitative public health methods."
 ---
 
 My research focuses on how communities can participate effectively in the surveillance of infectious diseases and how public health researchers can measure the social, behavioural, and organisational factors that shape that participation.
