@@ -25,7 +25,7 @@ I am a public health professional and researcher specialising in the epidemiolog
 
 </div>
 <div class='headerImg'>
-<img src="/images/introImage.svg" alt="Illustration of a researcher working with data">
+<img src="../images/introImage.svg" alt="Illustration of a researcher working with data">
 </div>
 </div>
 
