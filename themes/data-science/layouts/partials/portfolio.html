@@ -73,7 +73,7 @@
             {{else if .Params.image}}
               <img class="item__image" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.imageAlt }}" class="img-responsive">
             {{else}}
-              <img class="item__image" src="{{ "images/introImage.svg" | relURL }}" alt="{{ .Title }}" class="img-responsive">
+              <img class="item__image" src="{{ "images/introImage-light.png" | relURL }}" alt="{{ .Title }}" class="img-responsive">
             {{end}}
             <div class="item__details">
               {{ range .Params.categories }}

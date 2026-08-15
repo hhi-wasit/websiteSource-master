@@ -107,7 +107,7 @@ function makeLight(load){
     // the light image is default,
     // so if this isn't the first load & there's an image, change to the light image
     if (image){
-      image.src = 'images/introImage.svg'
+      image.src = 'images/introImage-light.png'
     }
 
     // if this is a page with an indicator of what the button means, adjust the text
