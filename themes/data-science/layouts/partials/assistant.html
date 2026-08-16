@@ -1,0 +1,34 @@
+<section id="assistant-widget" class="assistant-widget" data-language="{{ .Site.Language.Lang }}" data-knowledge-url="{{ "assistant/knowledge.json" | relURL }}" data-model="Qwen2.5-0.5B-Instruct-q4f16_1-MLC" data-loading="{{ i18n "assistant_loading" }}" data-generating="{{ i18n "assistant_generating" }}" data-fallback="{{ i18n "assistant_fallback" }}" data-error="{{ i18n "assistant_error" }}" data-no-match="{{ i18n "assistant_no_match" }}" aria-label="{{ i18n "assistant_title" }}">
+  <button id="assistant-launcher" class="assistant-launcher" type="button" aria-expanded="false" aria-controls="assistant-panel" aria-label="{{ i18n "assistant_open" }}">
+    <span class="assistant-launcher-icon" aria-hidden="true">✦</span>
+    <span>{{ i18n "assistant_open" }}</span>
+  </button>
+
+  <div id="assistant-panel" class="assistant-panel" hidden role="dialog" aria-modal="false" aria-labelledby="assistant-title">
+    <div class="assistant-header">
+      <div>
+        <h2 id="assistant-title">{{ i18n "assistant_title" }}</h2>
+        <p>{{ i18n "assistant_subtitle" }}</p>
+      </div>
+      <button id="assistant-close" class="assistant-icon-button" type="button" aria-label="{{ i18n "assistant_close" }}">×</button>
+    </div>
+
+    <p class="assistant-disclaimer">{{ i18n "assistant_disclaimer" }}</p>
+
+    <div id="assistant-messages" class="assistant-messages" aria-live="polite" aria-atomic="false">
+      <div class="assistant-message assistant-message-assistant">{{ i18n "assistant_welcome" }}</div>
+    </div>
+
+    <div id="assistant-status" class="assistant-status" hidden role="status"></div>
+
+    <form id="assistant-form" class="assistant-form">
+      <label class="assistant-sr-only" for="assistant-input">{{ i18n "assistant_input_label" }}</label>
+      <textarea id="assistant-input" rows="2" maxlength="1000" placeholder="{{ i18n "assistant_placeholder" }}"></textarea>
+      <div class="assistant-actions">
+        <button id="assistant-send" class="assistant-send" type="submit">{{ i18n "assistant_send" }}</button>
+        <button id="assistant-clear" class="assistant-clear" type="button">{{ i18n "assistant_clear" }}</button>
+      </div>
+    </form>
+  </div>
+</section>
+<script src="{{ "js/assistant.js" | relURL }}" defer></script>

@@ -78,3 +78,48 @@ other = "Original post"
 
 [read_more]
 other = "Read more"
+
+[assistant_open]
+other = "Ask Ahmed’s assistant"
+
+[assistant_title]
+other = "Ahmed’s academic assistant"
+
+[assistant_subtitle]
+other = "Ask about the CV, research, publications, and posts"
+
+[assistant_disclaimer]
+other = "This assistant runs in your browser. Its first use may download an open-source model, and answers should be checked against the About page and CV."
+
+[assistant_welcome]
+other = "Hello. I can help you explore Ahmed Azeez’s academic profile, research interests, publications, and website posts."
+
+[assistant_close]
+other = "Close assistant"
+
+[assistant_input_label]
+other = "Your question"
+
+[assistant_placeholder]
+other = "Ask about Ahmed’s research, CV, or posts…"
+
+[assistant_send]
+other = "Send"
+
+[assistant_clear]
+other = "Clear"
+
+[assistant_loading]
+other = "Loading the browser-based assistant… The first load may take a while."
+
+[assistant_generating]
+other = "Preparing an answer…"
+
+[assistant_fallback]
+other = "The local model is not available in this browser, so I am answering from the website’s academic knowledge base."
+
+[assistant_error]
+other = "The browser model could not be loaded. Please try again or use the About page and CV links."
+
+[assistant_no_match]
+other = "I could not find that topic in the website’s academic knowledge base. Please try asking about Ahmed’s education, research, methods, publications, conferences, or posts."
