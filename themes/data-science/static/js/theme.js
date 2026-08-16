@@ -11,9 +11,15 @@ const disqus = document.getElementsByClassName('disqus-comments')[0]
 const disqusButton = document.getElementsByClassName('disqus-show')[0]
 const toTopButton = document.getElementsByClassName('toTop')[0]
 const themeText = document.getElementsByClassName('theme-text')[0]
+const themeButton = document.getElementsByClassName('theme-toggle')[0]
+const enableDarkLabel = themeButton ? themeButton.dataset.enableDark : 'Enable Dark Mode'
+const enableLightLabel = themeButton ? themeButton.dataset.enableLight : 'Enable Light Mode'
 const scrollText = document.getElementsByClassName('scroll-text')
 const syntaxLight = document.getElementById('syntaxLight')
 const syntaxDark = document.getElementById('syntaxDark')
+const siteRootMeta = document.querySelector('meta[name="site-root"]')
+const siteRoot = siteRootMeta ? siteRootMeta.content.replace(/\/?$/, '/') : '/'
+const assetUrl = (path) => siteRoot + path
 
 
 // looking for any stored value in session storage of 'theme'
@@ -67,13 +73,13 @@ function makeDark(load){
     sunIcon.hidden = false
 
   // if this is run on a page where the image exists, switch to the dark one
-  if (image) image.src = 'images/introImage-dark.png'
+  if (image) image.src = assetUrl('images/introImage-dark.png')
 
   // if this is a page with an indicator of what the button means, adjust the text
-  if (themeText) themeText.innerText = 'Enable Light Mode'
+  if (themeText) themeText.innerText = enableLightLabel
 
   // Switch aria label to be accurate
-  if (!themeText) lightDarkToggle.setAttribute('aria-label', 'Enable Light Mode')
+  if (!themeText) lightDarkToggle.setAttribute('aria-label', enableLightLabel)
 
   // switch to dark syntax highlighting
   syntaxLight.rel = 'stylesheet alternate'
@@ -107,14 +113,14 @@ function makeLight(load){
     // the light image is default,
     // so if this isn't the first load & there's an image, change to the light image
     if (image){
-      image.src = 'images/introImage-light.png'
+      image.src = assetUrl('images/introImage-light.png')
     }
 
     // if this is a page with an indicator of what the button means, adjust the text
-    if (themeText) themeText.innerText = 'Enable Dark Mode'
+    if (themeText) themeText.innerText = enableDarkLabel
 
     // Switch aria label to be accurate
-    if (!themeText) lightDarkToggle.setAttribute('aria-label', 'Enable Dark Mode')
+    if (!themeText) lightDarkToggle.setAttribute('aria-label', enableDarkLabel)
 
     // light syntax highlighting is default, so if this isn't the first load, change to light highlighting
     syntaxDark.rel = 'stylesheet alternate'
@@ -177,8 +183,8 @@ function toggleDisqusComments(){
 
   const message = disqusButton.getElementsByTagName('span')[0]
 
-  if (disqus.hidden) message.innerText = 'Show Comments '
-  else message.innerText = 'Hide Comments '
+  if (disqus.hidden) message.innerText = disqusButton.dataset.showComments || 'Show Comments '
+  else message.innerText = disqusButton.dataset.hideComments || 'Hide Comments '
 }
 
 

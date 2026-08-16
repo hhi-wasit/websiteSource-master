@@ -1,0 +1,80 @@
+[language_toggle]
+other = "En–Ar"
+
+[language_switch_aria]
+other = "Switch between Arabic and English"
+
+[enable_dark_mode]
+other = "Enable Dark Mode"
+
+[enable_light_mode]
+other = "Enable Light Mode"
+
+[go_home]
+other = "Back to All"
+
+[scroll_to_top]
+other = "Scroll to top"
+
+[all_categories]
+other = "All Categories"
+
+[filter]
+other = "Filters"
+
+[filter_by_tag]
+other = "Filter by posts tagged %s"
+
+[tags]
+other = "Tags:"
+
+[min_read]
+other = "min read"
+
+[show_comments]
+other = "Show Comments"
+
+[hide_comments]
+other = "Hide Comments"
+
+[image_by]
+other = "Image by"
+
+[on]
+other = "on"
+
+[about]
+other = "About"
+
+[contact]
+other = "Contact"
+
+[public_health_researcher]
+other = "Public health researcher and lecturer"
+
+[academic_website]
+other = "Academic website for research, teaching, and public health scholarship"
+
+[intro_description]
+other = "Public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."
+
+[empty_filters]
+other = "Oops! None of my posts meet these criteria. Click on some of the filters you have selected to turn them off."
+
+[too_many_filters]
+other = "Ah, too many filters! Let's keep it to 3 or fewer, please."
+
+[author_portrait]
+other = "Portrait of Ahmed Azeez"
+
+[author_profile]
+other = "Ahmed Azeez academic profile"
+
+[orcid]
+other = "ORCID"
+
+[original_post]
+other = "Original post"
+
+[read_more]
+other = "Read more"

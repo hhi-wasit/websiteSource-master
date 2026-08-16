@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ if eq .Site.Language.Lang "ar" }}rtl{{ else }}ltr{{ end }}">
 
 <head>
   <meta charset="utf-8">
@@ -7,6 +6,7 @@
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="orcid" content="{{ .Site.Params.orcid }}">
+  <meta name="site-root" content="{{ "/" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ template "_internal/twitter_cards.html" . }}
@@ -15,9 +15,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
   <link rel="stylesheet" type="text/css" href="{{ "css/variables.css" | relURL }}">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:300,700|Noto+Sans:400,700" rel="stylesheet">
-
- <!-- Set a scratch value of highlight_enabled based on whether the "highlight" param is set to true or false -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:300,700|Noto+Sans:400,700|Noto+Sans+Arabic:400,700" rel="stylesheet">
 
   {{ if isset .Site.Params "highlight" }}
     {{ .Scratch.Set "highlight_enabled" true }}
@@ -31,9 +29,8 @@
       {{ $light := (.Site.Params.highlightjsThemeLight | default "github-gist")}}
       <link rel="stylesheet" href="{{ $highCDN }}/highlight.js/{{ $highVer }}/styles/{{ $light }}.min.css" id="syntaxLight">
       {{ $dark := (.Site.Params.highlightjsThemeDark | default "atom-one-dark" )}}
-      <link rel="stylesheet alternate" href="{{ $highCDN }}/highlight.js/{{ $highVer }}/styles/{{ $dark }}.min.css" id="syntaxDark"></script>
+      <link rel="stylesheet alternate" href="{{ $highCDN }}/highlight.js/{{ $highVer }}/styles/{{ $dark }}.min.css" id="syntaxDark">
     {{ end }}
-
   {{ end }}
 
 </head>

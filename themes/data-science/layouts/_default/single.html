@@ -11,7 +11,7 @@
     <div class='container-toTop'>
       <div class='toTop-spacing'>
         <div class='toTop-hidden'></div>
-        <a href="#" class="toTop is-hidden" aria-label="Scroll to top">
+        <a href="#" class="toTop is-hidden" aria-label="{{ i18n "scroll_to_top" }}">
           {{ partial "icon.html" "chevron-up" }}
         </a>
       </div>
@@ -37,9 +37,9 @@
 
       {{ if .Params.tags }}
       <div class='post__tags'>
-        <p class='post__tags-meta'>Tags:</p>
+        <p class='post__tags-meta'>{{ i18n "tags" }}</p>
         {{ range .Params.tags }}
-            <button class='item__meta-tag post-tag' aria-label='Back to all posts filtered by {{ . }}'>{{ . }}</button>
+            <button class='item__meta-tag post-tag' aria-label='{{ printf (i18n "filter_by_tag") . }}'>{{ . }}</button>
         {{ end }}
       </div>
       {{ end }}
@@ -47,9 +47,9 @@
       {{ if .Params.date }}
       <div class="post__date">
         {{ if .Params.displayDate }}
-        <p>{{ .Params.displayDate }} • {{ .ReadingTime }} min read</p>
+        <p>{{ .Params.displayDate }} • {{ .ReadingTime }} {{ i18n "min_read" }}</p>
         {{ else }}
-        <p>{{ .Date.Format "January 2 2006" }} • {{ .ReadingTime }} min read</p>
+        <p>{{ .Date.Format "January 2 2006" }} • {{ .ReadingTime }} {{ i18n "min_read" }}</p>
         {{ end }}
       </div>
       {{ end }}
@@ -59,7 +59,7 @@
         {{- range .Params.authors }}
           <a href="{{ $.Site.Params.orcid }}" ref="author">
             <div class='post__author'>
-              <img src="{{ "images/ahmed-azeez.jpg" | relURL }}" alt="Ahmed Azeez" class='post__author-img'>
+              <img src="{{ "images/ahmed-azeez.jpg" | relURL }}" alt="{{ i18n "author_portrait" }}" class='post__author-img'>
               <div class='post__author-social'>
                 <span class='post__author-name'>{{ $.Site.Params.author }}</span>
                 <span class='post__author-website'>ORCID</span>
@@ -75,9 +75,9 @@
       {{ else if .Params.image }}
         <img class="post__image" src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" class="img-responsive">
         {{ if .Params.imageCredit }}
-          <p class="post__image-credit">Image by <a href="{{ .Params.imageCreditLink }}">{{ .Params.imageCredit }}</a>
+          <p class="post__image-credit">{{ i18n "image_by" }} <a href="{{ .Params.imageCreditLink }}">{{ .Params.imageCredit }}</a>
             {{ if .Params.imageSrc }}
-              on <a href="{{ .Params.imageSrcLink }}">{{ .Params.imageSrc }}</a>
+              {{ i18n "on" }} <a href="{{ .Params.imageSrcLink }}">{{ .Params.imageSrc }}</a>
             {{ end }}
           </p>
         {{ end }}
@@ -92,7 +92,7 @@
 
     {{ if .Params.disqus }}
     <div class='disqus'>
-      <button class='disqus-show'><span class="show-message">Show Comments</span> {{ partial "icon.html" "bubbles" }}</button>
+      <button class='disqus-show' data-show-comments="{{ i18n "show_comments" }}" data-hide-comments="{{ i18n "hide_comments" }}"><span class="show-message">{{ i18n "show_comments" }}</span> {{ partial "icon.html" "bubbles" }}</button>
       <div class='disqus-comments' hidden>
         {{ template "_internal/disqus.html" . }}
       </div>

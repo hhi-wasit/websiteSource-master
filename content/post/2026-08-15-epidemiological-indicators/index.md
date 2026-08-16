@@ -1,63 +1,64 @@
 ---
-title: "Key Epidemiological Indicators for Public Health Data Analysis"
+title: "مؤشرات وبائية أساسية لتحليل بيانات الصحة العامة"
 type: post
 date: 2026-08-15
 displayDate: "2026"
+slug: "key-epidemiological-indicators-for-public-health-data-analysis"
 authors:
   - Ahmed Azeez
 categories:
-  - Public Health
+  - الصحة العامة
 tags:
-  - Public Health
-  - Epidemiology
-  - Health Data
-  - Data Analytics
-  - Disease Surveillance
-  - Health Informatics
+  - الصحة العامة
+  - علم الوبائيات
+  - البيانات الصحية
+  - تحليل البيانات
+  - ترصد الأمراض
+  - المعلوماتية الصحية
   - Power BI
-  - Data Visualization
-  - Evidence-Based Practice
+  - تصور البيانات
+  - الممارسة القائمة على الدليل
 thumbnail: "thumbnail.png"
-imageAlt: "Key epidemiological indicators for public health data analysis"
-description: "A practical guide to six epidemiological indicators that help public health data analysts interpret disease patterns and support better decisions."
+imageAlt: "مؤشرات وبائية أساسية لتحليل بيانات الصحة العامة"
+description: "دليل عملي إلى ستة مؤشرات وبائية تساعد محللي بيانات الصحة العامة على تفسير أنماط المرض ودعم القرارات الأفضل."
 ---
 
-One of the most important lessons in public health data analysis is that numbers need context. A dashboard can display trends clearly, but the meaning of each trend depends on the epidemiological indicator behind it and the population, time period, and case definition being used.
+من أهم الدروس في تحليل بيانات الصحة العامة أن الأرقام تحتاج إلى سياق. يمكن للوحة المعلومات أن تعرض الاتجاهات بوضوح، لكن معنى كل اتجاه يعتمد على المؤشر الوبائي الذي يقف وراءه، وعلى السكان والفترة الزمنية وتعريف الحالة المستخدم.
 
-The illustration below summarises six measures that are especially useful when analysing disease patterns, monitoring surveillance data, and communicating findings to decision-makers.
+يلخّص الرسم التوضيحي أدناه ستة مقاييس مفيدة بصورة خاصة عند تحليل أنماط المرض، ومتابعة بيانات الترصد، وشرح النتائج لصانعي القرار.
 
-![Key epidemiological indicators for public health data analysis](diagram.png)
+{{< inline-image "diagram.png" "مؤشرات وبائية أساسية لتحليل بيانات الصحة العامة" >}}
 
-## Six indicators every analyst should understand
+## ستة مؤشرات ينبغي لكل محلل فهمها
 
-### Incidence
+### الحدوث
 
-Incidence describes the occurrence of **new cases** in a population at risk during a specified period. It helps analysts detect emerging outbreaks, compare disease occurrence across populations, and monitor changes over time.
+يصف الحدوث ظهور **الحالات الجديدة** في مجموعة سكانية معرضة للخطر خلال فترة زمنية محددة. ويساعد المحللين على اكتشاف الفاشيات الناشئة، ومقارنة حدوث المرض بين السكان، ومتابعة التغيرات بمرور الوقت.
 
-### Prevalence
+### الانتشار
 
-Prevalence describes the proportion or number of **existing cases** in a population at a particular point in time or over a defined period. It is useful for estimating the overall burden of a condition and planning services and resources.
+يصف الانتشار نسبة أو عدد **الحالات الموجودة** في مجموعة سكانية عند نقطة زمنية معينة أو خلال فترة محددة. ويفيد في تقدير العبء الكلي للحالة الصحية وفي تخطيط الخدمات والموارد.
 
-### Mortality rate
+### معدل الوفيات
 
-Mortality measures deaths in a defined population during a specified period. It helps describe the effect of a disease or health condition on the population as a whole and can support comparisons when the population denominators and time periods are clearly defined.
+يقيس معدل الوفيات الوفيات التي تحدث في مجموعة سكانية محددة خلال فترة زمنية معينة. ويساعد على وصف أثر المرض أو الحالة الصحية في السكان ككل، ويدعم المقارنات عندما تكون المقامات السكانية والفترات الزمنية محددة بوضوح.
 
-### Case fatality rate
+### معدل إماتة الحالات
 
-The case fatality rate (CFR) is the proportion of people diagnosed with a disease who die from it within the relevant period. Unlike mortality, which uses the wider population as its denominator, CFR focuses on the severity of the disease among identified cases.
+معدل إماتة الحالات (CFR) هو نسبة الأشخاص الذين شُخّصت إصابتهم بمرض ثم توفوا بسببه خلال الفترة ذات الصلة. وعلى خلاف معدل الوفيات الذي يستخدم السكان الأوسع مقاماً له، يركّز معدل إماتة الحالات على شدة المرض بين الحالات المعروفة.
 
-### Attack rate
+### معدل الهجوم
 
-Attack rate is commonly used during outbreaks. It describes the proportion of people at risk who develop the disease during the outbreak period and helps analysts assess how extensively an infection has spread within a defined group or setting.
+يُستخدم معدل الهجوم عادةً أثناء الفاشيات. وهو يصف نسبة الأشخاص المعرضين للخطر الذين يصابون بالمرض خلال فترة الفاشية، ويساعد المحللين على تقدير مدى انتشار العدوى داخل مجموعة أو بيئة محددة.
 
-### Relative risk
+### الخطر النسبي
 
-Relative risk, also called the risk ratio, compares the risk of disease among an exposed group with the risk among an unexposed group. It is commonly used in epidemiological studies to examine potential risk factors and differences in disease occurrence.
+يقارن الخطر النسبي، أو نسبة المخاطر، خطر الإصابة بالمرض بين مجموعة معرضة ومجموعة غير معرضة. ويُستخدم كثيراً في الدراسات الوبائية لفحص عوامل الخطر المحتملة والفروق في حدوث المرض.
 
-## From measures to meaningful decisions
+## من المقاييس إلى القرارات ذات المعنى
 
-These indicators are more than definitions to memorise. They help analysts ask better questions: Are new cases increasing? How large is the existing burden? Is the disease causing unusually severe outcomes? Is the risk different between exposed and unexposed groups?
+هذه المؤشرات أكثر من مجرد تعريفات للحفظ. فهي تساعد المحللين على طرح أسئلة أفضل: هل تزداد الحالات الجديدة؟ ما حجم العبء الحالي؟ هل يسبب المرض نتائج شديدة على نحو غير معتاد؟ وهل يختلف الخطر بين المجموعات المعرضة وغير المعرضة؟
 
-Public health data analysts do more than report numbers. By selecting appropriate indicators, checking their denominators and time periods, and explaining their limitations, they help turn surveillance data into evidence that can inform policy, strengthen health systems, and improve population outcomes.
+لا يقتصر دور محللي بيانات الصحة العامة على الإبلاغ عن الأرقام. فمن خلال اختيار المؤشرات المناسبة، والتحقق من مقاماتها وفتراتها الزمنية، وشرح حدودها، يساعدون على تحويل بيانات الترصد إلى أدلة يمكن أن تسهم في السياسات، وتعزيز النظم الصحية، وتحسين النتائج الصحية للسكان.
 
-#PublicHealth #Epidemiology #HealthData #DataAnalytics #DiseaseSurveillance #HealthInformatics #PowerBI #DataVisualization #EvidenceBasedPractice
+#الصحة_العامة #علم_الوبائيات #البيانات_الصحية #تحليل_البيانات #ترصد_الأمراض #المعلوماتية_الصحية #PowerBI #تصور_البيانات #الممارسة_القائمة_على_الدليل

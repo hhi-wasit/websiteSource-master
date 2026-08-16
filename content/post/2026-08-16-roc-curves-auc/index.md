@@ -1,65 +1,66 @@
 ---
-title: "ROC Curves and AUC: Useful Measures, Not the Whole Story"
+title: "منحنيات ROC وAUC: مقاييس مفيدة، لكنها لا تحكي القصة كاملة"
 type: post
 date: 2026-08-16
 displayDate: "2026"
+slug: "roc-curves-and-auc-useful-measures-not-the-whole-story"
 authors:
   - Ahmed Azeez
 categories:
-  - Public Health
+  - الصحة العامة
 tags:
-  - Public Health
-  - Epidemiology
-  - Research Methods
-  - Biostatistics
-  - Data Interpretation
-  - Predictive Modeling
-  - Health Analytics
+  - الصحة العامة
+  - علم الوبائيات
+  - مناهج البحث
+  - الإحصاء الحيوي
+  - تفسير البيانات
+  - النمذجة التنبؤية
+  - التحليلات الصحية
 thumbnail: "thumbnail.png"
-imageAlt: "ROC and AUC curve illustrating model discrimination"
-description: "A practical explanation of what ROC curves and AUC measure, and why they should not be treated as complete evidence of model quality."
+imageAlt: "منحنى ROC وAUC يوضحان قدرة النموذج على التمييز"
+description: "شرح عملي لما تقيسه منحنيات ROC وAUC، ولماذا لا ينبغي اعتبارها دليلاً كاملاً على جودة النموذج."
 ---
 
-ROC curves and the area under the curve (AUC) are widely used when researchers evaluate a model that classifies people into two outcome groups. They are useful measures, but they are also easy to overinterpret.
+تُستخدم منحنيات ROC والمساحة تحت المنحنى (AUC) على نطاق واسع عندما يقيّم الباحثون نموذجاً يصنّف الأشخاص ضمن مجموعتين من النتائج. وهي مقاييس مفيدة، لكنها قد تُفسَّر بصورة أوسع مما ينبغي.
 
-The infographic below provides a visual overview of ROC curves, AUC, and the limits of interpreting discrimination as a complete measure of model quality.
+يوضح الرسم التوضيحي أدناه منحنيات ROC وAUC، وحدود اعتبار التمييز مقياساً كاملاً لجودة النموذج.
 
-![AUC and ROC curves infographic](roc-auc-infographic.png)
+{{< inline-image "roc-auc-infographic.png" "رسم توضيحي لمنحنيات AUC وROC" >}}
 
-## What does an ROC curve show?
+## ماذا يوضح منحنى ROC؟
 
-A model often produces a probability or score rather than a simple yes-or-no answer. Changing the decision threshold changes the number of people identified as positive and the number missed. An ROC curve displays this trade-off across many possible thresholds.
+ينتج النموذج غالباً احتمالاً أو درجة، لا إجابة بسيطة بنعم أو لا. ويؤدي تغيير عتبة القرار إلى تغيير عدد الأشخاص الذين يُصنّفون إيجابياً وعدد الأشخاص الذين لا يكتشفهم النموذج. ويعرض منحنى ROC هذه المفاضلة عبر عتبات مختلفة.
 
-The vertical axis represents **sensitivity**, or the proportion of people with the outcome who are correctly identified. The horizontal axis represents the **false-positive rate**, calculated as **1 − specificity**. Specificity is the proportion of people without the outcome who are correctly classified as negative.
+يمثل المحور الرأسي **الحساسية**، أي نسبة الأشخاص الذين لديهم النتيجة ويجري التعرف إليهم بصورة صحيحة. ويمثل المحور الأفقي **معدل الإيجابيات الكاذبة**، المحسوب على أنه **1 − النوعية**. أما النوعية فهي نسبة الأشخاص الذين لا يملكون النتيجة ويجري تصنيفهم بصورة صحيحة على أنهم سلبيون.
 
-In practical terms, the curve helps answer this question: how does the model’s ability to detect the outcome change when the classification threshold changes?
+وبعبارة عملية، يساعد المنحنى على الإجابة عن السؤال الآتي: كيف تتغير قدرة النموذج على اكتشاف النتيجة عندما تتغير عتبة التصنيف؟
 
-## What does AUC add?
+## ماذا تضيف AUC؟
 
-AUC summarises the model’s discrimination across all thresholds. One useful interpretation is that it reflects how often the model assigns a higher predicted score to a randomly selected person with the outcome than to a randomly selected person without it.
+تلخص AUC قدرة النموذج على التمييز عبر جميع العتبات. ومن التفسيرات المفيدة لها أنها تعكس مدى تكرار إسناد النموذج درجة تنبؤ أعلى إلى شخص مختار عشوائياً لديه النتيجة مقارنة بشخص مختار عشوائياً لا يملكها.
 
-An AUC close to 0.5 indicates discrimination that is not better than chance, while higher values generally indicate stronger separation between the two groups. However, an AUC is a summary of ranking or discrimination—not a complete verdict on the model.
+تشير AUC القريبة من 0.5 إلى أن التمييز ليس أفضل من الصدفة، بينما تشير القيم الأعلى عموماً إلى فصل أقوى بين المجموعتين. ومع ذلك، فإن AUC تلخص الترتيب أو التمييز، ولا تمثل حكماً كاملاً على النموذج.
 
-## What a high AUC does not prove
+## ما الذي لا تثبته AUC المرتفعة؟
 
-A high AUC does not show that the model is causal. The predictors may help separate the groups without causing the outcome.
+لا تثبت AUC المرتفعة أن النموذج سببي. فقد تساعد المتنبئات على فصل المجموعتين من دون أن تكون سبباً في النتيجة.
 
-It also does not establish that the predicted probabilities are well calibrated. A model can rank people correctly while systematically overestimating or underestimating their actual risk.
+كما أنها لا تثبت أن الاحتمالات المتنبأ بها معايرة جيداً. فقد يرتب النموذج الأشخاص بصورة صحيحة، لكنه يبالغ بصورة منتظمة في تقدير الخطر الفعلي أو يقلل من تقديره.
 
-AUC alone cannot tell us whether performance is consistent across demographic or clinical subgroups, whether the model is useful at a particular decision threshold, or whether using it would improve a public-health programme. Those questions require additional evaluation of calibration, fairness, clinical or operational utility, and the intended context of use.
+ولا تستطيع AUC وحدها أن تخبرنا ما إذا كان الأداء متسقاً عبر المجموعات الديموغرافية أو السريرية، أو ما إذا كان النموذج مفيداً عند عتبة قرار محددة، أو ما إذا كان استخدامه سيحسن برنامجاً للصحة العامة. وتتطلب هذه الأسئلة تقييماً إضافياً للمعايرة والإنصاف والمنفعة السريرية أو التشغيلية والسياق المقصود للاستخدام.
 
-## A public-health example
+## مثال من الصحة العامة
 
-Imagine a population-health model designed to distinguish women with poor mental-health-related quality of life from those without that outcome. The model might use information about emotional problems, general health, fatigue, pain, age, and education.
+تخيل نموذجاً للصحة السكانية صُمم للتمييز بين النساء ذوات النوعية المتدنية للحياة المرتبطة بالصحة النفسية والنساء اللواتي لا يملكن هذه النتيجة. وقد يستخدم النموذج معلومات عن المشكلات الانفعالية، والصحة العامة، والتعب، والألم، والعمر، والتعليم.
 
-The ROC curve would show how well the combined model separates the two outcome groups as the threshold changes. The AUC would provide a single summary of that separation. Neither result, by itself, would tell us whether any one predictor caused poor quality of life, whether the predictions are accurate for every subgroup, or whether the model is appropriate for making decisions about individual patients.
+سيظهر منحنى ROC مدى قدرة النموذج المدمج على الفصل بين مجموعتي النتائج مع تغير العتبة. وستقدم AUC ملخصاً واحداً لذلك الفصل. لكن أياً منهما، بمفرده، لا يخبرنا ما إذا كان متنبئ معين قد تسبب في انخفاض نوعية الحياة، أو ما إذا كانت التنبؤات دقيقة لكل مجموعة فرعية، أو ما إذا كان النموذج مناسباً لاتخاذ قرارات بشأن المرضى الأفراد.
 
-## The right interpretation
+## التفسير الصحيح
 
-AUC helps answer one focused question: **How well does the model distinguish between groups?** It does not answer every question about whether the model is meaningful, equitable, calibrated, or appropriate for decision-making.
+تساعد AUC على الإجابة عن سؤال محدد: **ما مدى قدرة النموذج على التمييز بين المجموعات؟** لكنها لا تجيب عن كل الأسئلة المتعلقة بكون النموذج ذا معنى أو منصفاً أو معايراً أو مناسباً لاتخاذ القرار.
 
-For that reason, ROC curves and AUC should be interpreted alongside the research question, the study population, the outcome definition, calibration results, subgroup performance, and the consequences of using the model. Good model evaluation is not about finding one impressive number; it is about understanding whether the model is fit for its intended purpose.
+ولهذا السبب، ينبغي تفسير منحنيات ROC وAUC إلى جانب سؤال البحث، ومجموعة الدراسة، وتعريف النتيجة، ونتائج المعايرة، وأداء المجموعات الفرعية، والعواقب المترتبة على استخدام النموذج. ولا يتعلق التقييم الجيد للنموذج بالعثور على رقم واحد مثير للإعجاب، بل بفهم مدى ملاءمة النموذج للغرض المقصود.
 
-The topic and example were prompted by [Ria N. Gajar’s original LinkedIn post](https://lnkd.in/p/gPKjdw6T).
+استُلهم موضوع هذا المنشور ومثاله من [المنشور الأصلي لـ Ria N. Gajar على LinkedIn](https://lnkd.in/p/gPKjdw6T).
 
-#PublicHealth #Epidemiology #ResearchMethods #Biostatistics #DataInterpretation #PredictiveModeling #HealthAnalytics
+#الصحة_العامة #علم_الوبائيات #مناهج_البحث #الإحصاء_الحيوي #تفسير_البيانات #النمذجة_التنبؤية #التحليلات_الصحية

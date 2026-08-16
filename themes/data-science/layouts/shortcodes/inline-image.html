@@ -1,0 +1,2 @@
+{{- $src := printf "%s%s" .Page.RelPermalink (.Get 0) -}}
+<img src="{{ $src }}" alt="{{ .Get 1 }}" class="inline-post-image">

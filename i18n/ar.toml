@@ -1,0 +1,80 @@
+[language_toggle]
+other = "En–Ar"
+
+[language_switch_aria]
+other = "التبديل بين العربية والإنجليزية"
+
+[enable_dark_mode]
+other = "تفعيل الوضع الداكن"
+
+[enable_light_mode]
+other = "تفعيل الوضع الفاتح"
+
+[go_home]
+other = "العودة إلى جميع المنشورات"
+
+[scroll_to_top]
+other = "العودة إلى أعلى الصفحة"
+
+[all_categories]
+other = "جميع التصنيفات"
+
+[filter]
+other = "تصفية"
+
+[filter_by_tag]
+other = "تصفية المنشورات حسب الوسم %s"
+
+[tags]
+other = "الوسوم:"
+
+[min_read]
+other = "دقيقة قراءة"
+
+[show_comments]
+other = "إظهار التعليقات"
+
+[hide_comments]
+other = "إخفاء التعليقات"
+
+[image_by]
+other = "الصورة من"
+
+[on]
+other = "على"
+
+[about]
+other = "نبذة"
+
+[contact]
+other = "اتصل بي"
+
+[public_health_researcher]
+other = "باحث ومحاضر في الصحة العامة"
+
+[academic_website]
+other = "موقع أكاديمي للبحث والتدريس والمنشورات العلمية في الصحة العامة"
+
+[intro_description]
+other = "باحث ومحاضر في الصحة العامة، متخصص في وبائيات الأمراض المعدية والترصد والنمذجة والإحصاء الحيوي وتطوير الأدوات البحثية."
+
+[empty_filters]
+other = "عذراً! لا توجد منشورات تطابق هذه المعايير. ألغِ بعض عوامل التصفية المحددة للمحاولة مرة أخرى."
+
+[too_many_filters]
+other = "هناك عوامل تصفية كثيرة جداً. يُرجى الاكتفاء بثلاثة عوامل أو أقل."
+
+[author_portrait]
+other = "صورة أحمد عزيز"
+
+[author_profile]
+other = "الملف الأكاديمي لأحمد عزيز"
+
+[orcid]
+other = "ORCID"
+
+[original_post]
+other = "المنشور الأصلي"
+
+[read_more]
+other = "اقرأ المزيد"

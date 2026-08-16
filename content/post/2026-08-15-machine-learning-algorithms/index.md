@@ -1,32 +1,35 @@
 ---
-title: "Machine Learning Algorithms"
+title: "خوارزميات التعلم الآلي"
 type: post
 date: 2026-08-15
 displayDate: "2026"
+slug: "machine-learning-algorithms"
 authors:
   - Ahmed Azeez
 categories:
-  - Machine Learning
+  - التعلم الآلي
 tags:
-  - AI
-  - Machine Learning
-  - Agentic AI
-  - AgentOps
+  - الذكاء الاصطناعي
+  - التعلم الآلي
+  - الذكاء الاصطناعي الوكيلي
+  - عمليات الوكلاء
   - Python
-  - Edge AI
+  - الذكاء الطرفي
 thumbnail: "diagram.png"
-imageAlt: "Machine learning algorithms grouped by supervised, unsupervised, semi-supervised, and reinforcement learning"
-description: "A concise introduction to how machine-learning algorithms learn from data, recognize patterns, and support prediction and decision-making."
+imageAlt: "خوارزميات التعلم الآلي مجمعة إلى تعلم خاضع للإشراف وغير خاضع للإشراف وشبه خاضع للإشراف وتعلم معزز"
+description: "مقدمة موجزة إلى كيفية تعلم خوارزميات التعلم الآلي من البيانات واكتشاف الأنماط ودعم التنبؤ واتخاذ القرار."
 ---
 
-A machine learning (ML) algorithm is a computational procedure or mathematical model that allows computers to learn from data, recognize hidden patterns, and make decisions without being explicitly programmed for a specific task. Instead of following static, hard-coded rules, these algorithms dynamically improve their prediction accuracy as they are exposed to more data over time.
+خوارزمية التعلم الآلي (ML) هي إجراء حاسوبي أو نموذج رياضي يتيح للحواسيب التعلم من البيانات، والتعرف على الأنماط الخفية، واتخاذ القرارات من دون برمجتها بصورة صريحة لمهمة محددة. وبدلاً من اتباع قواعد ثابتة ومكتوبة مسبقاً، تعمل هذه الخوارزميات على تحسين دقة التنبؤ بصورة تدريجية كلما تعرضت لمزيد من البيانات.
 
-The accompanying diagram provides a high-level map of common algorithm families, including supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning. It also shows examples such as classification, regression, clustering, association, anomaly detection, policy optimization, and Q-learning.
+يوضح الرسم المرافق خريطة عامة لعائلات الخوارزميات الشائعة، ومنها التعلم الخاضع للإشراف، والتعلم غير الخاضع للإشراف، والتعلم شبه الخاضع للإشراف، والتعلم المعزز. كما يعرض أمثلة مثل التصنيف، والانحدار، والتجميع، وقواعد الارتباط، واكتشاف الشذوذ، وتحسين السياسات، والتعلم Q.
 
-### Topics
+{{< inline-image "diagram.png" "خوارزميات التعلم الآلي" >}}
 
-#AI #MachineLearning #AgenticAI #AgentOps #Python #TheIncubatorHub #SLMs #EdgeAI
+### الموضوعات
 
-### Attribution
+#الذكاء_الاصطناعي #التعلم_الآلي #الذكاء_الاصطناعي_الوكيلي #عمليات_الوكلاء #Python #TheIncubatorHub #SLMs #الذكاء_الطرفي
 
-This post reproduces the supplied text with permission. The accompanying diagram is attributed to **ML Tut**, as identified in the source image, and has been enhanced for clearer web display without changing its subject matter or category structure.
+### المصدر
+
+أُعيد نشر النص المقدم في هذا المنشور بعد الحصول على الإذن. ويُنسب الرسم المرافق إلى **ML Tut** كما يظهر في الصورة المصدرية، وقد جرى تحسينه لعرضه بوضوح أكبر على الويب من دون تغيير موضوعه أو تصنيفاته الأساسية.
