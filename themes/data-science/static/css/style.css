@@ -1530,3 +1530,7 @@ footer{
     height: min(560px, calc(100vh - 4.5rem));
   }
 }
+
+.assistant-panel[hidden]{
+  display: none;
+}
