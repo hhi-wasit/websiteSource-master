@@ -6,7 +6,7 @@
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="orcid" content="{{ .Site.Params.orcid }}">
-  <meta name="site-root" content="{{ "/" | relURL }}">
+  <meta name="site-root" content="{{ .Site.BaseURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ template "_internal/twitter_cards.html" . }}
