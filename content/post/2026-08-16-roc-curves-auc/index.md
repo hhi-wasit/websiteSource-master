@@ -22,6 +22,10 @@ description: "A practical explanation of what ROC curves and AUC measure, and wh
 
 ROC curves and the area under the curve (AUC) are widely used when researchers evaluate a model that classifies people into two outcome groups. They are useful measures, but they are also easy to overinterpret.
 
+The infographic below provides a visual overview of ROC curves, AUC, and the limits of interpreting discrimination as a complete measure of model quality.
+
+![AUC and ROC curves infographic](roc-auc-infographic.png)
+
 ## What does an ROC curve show?
 
 A model often produces a probability or score rather than a simple yes-or-no answer. Changing the decision threshold changes the number of people identified as positive and the number missed. An ROC curve displays this trade-off across many possible thresholds.
