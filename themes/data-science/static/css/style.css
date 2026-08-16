@@ -1313,3 +1313,7 @@ footer{
   margin-left: 0;
 }
 
+.filters__content > .control-group{
+  margin-left: auto;
+}
+
