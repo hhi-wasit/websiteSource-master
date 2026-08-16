@@ -32,10 +32,10 @@ preserveTaxonomyNames = true
 [params.social]
   email = "mailto:ahmed.azeez1987@gmail.com"
   twitter = ""
-  github = "https://github.com/ahmed-azeez"
-  linkedin = "https://www.linkedin.com/in/ahmed-a-hasan-%F0%9F%87%AE%F0%9F%87%B6-070b9aab/"
+  github = ""
+  linkedin = ""
   stackoverflow = ""
-  facebook = "https://www.facebook.com/ahmed.medic.583/"
+  facebook = ""
   instagram = ""
   dribbble = ""
   kaggle = ""
