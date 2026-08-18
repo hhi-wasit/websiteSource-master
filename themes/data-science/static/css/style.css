@@ -1563,6 +1563,13 @@ footer{
   gap: 1.25rem;
 }
 
+.videos-column{
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
 .video-card{
   min-width: 0;
   overflow: hidden;
@@ -1637,6 +1644,10 @@ footer{
 @media(max-width: 650px){
   .videos-grid{
     grid-template-columns: 1fr;
+  }
+
+  .videos-column + .videos-column{
+    display: contents;
   }
 
   .video-card__title{

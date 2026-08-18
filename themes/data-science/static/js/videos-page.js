@@ -6,6 +6,12 @@
 
       const grid = catalog.querySelector("[data-video-grid]");
       const empty = catalog.querySelector("[data-video-empty]");
+      const columns = [0, 1].map(() => {
+        const column = document.createElement("div");
+        column.className = "videos-column";
+        return column;
+      });
+      grid.append(...columns);
       const entries = Array.isArray(window.AhmedVideos) ? window.AhmedVideos : [];
       const isArabic = document.documentElement.lang.toLowerCase().startsWith("ar");
 
@@ -94,7 +100,8 @@
       entries.forEach((entry) => {
         const card = createCard(entry || {});
         if (!card) return;
-        grid.appendChild(card);
+        card.style.order = String(rendered);
+        columns[rendered % columns.length].appendChild(card);
         rendered += 1;
       });
 
