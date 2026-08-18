@@ -123,3 +123,57 @@ other = "The browser model could not be loaded. Please try again or use the Abou
 
 [assistant_no_match]
 other = "I could not find that topic in the website’s academic knowledge base. Please try asking about Ahmed’s education, research, methods, publications, conferences, or posts."
+
+[videos_tab]
+other = "Videos"
+
+[video_tool_title]
+other = "Add a YouTube video"
+
+[video_tool_description]
+other = "Paste a YouTube link, add a title, preview it, and download a ready-to-use Hugo post bundle."
+
+[video_close]
+other = "Close video tool"
+
+[video_title_label]
+other = "Video title"
+
+[video_title_placeholder]
+other = "Enter a title for the video post"
+
+[video_url_label]
+other = "YouTube URL"
+
+[video_preview]
+other = "Preview video"
+
+[video_preview_title]
+other = "Preview"
+
+[video_download_bundle]
+other = "Download Hugo bundle"
+
+[video_cancel]
+other = "Clear"
+
+[video_export_note]
+other = "This downloads a ZIP bundle. Add its folder under content/post/ in the repository, then rebuild the site. No repository credentials are used in the browser."
+
+[video_invalid_url]
+other = "Please enter a valid YouTube video or Shorts link."
+
+[video_missing_title]
+other = "Please add a title before exporting the post."
+
+[video_type_short]
+other = "YouTube Short · 9:16"
+
+[video_type_regular]
+other = "YouTube video · 16:9"
+
+[video_ready]
+other = "Preview ready. You can download the Hugo bundle."
+
+[video_exported]
+other = "The Hugo video-post bundle has been downloaded."

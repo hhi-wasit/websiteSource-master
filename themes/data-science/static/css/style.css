@@ -1534,3 +1534,231 @@ footer{
 .assistant-panel[hidden]{
   display: none;
 }
+
+
+/* Local/export YouTube video authoring */
+.video-toggle{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  min-width: 42px;
+  padding: 0 7px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  color: var(--accent);
+  background-color: transparent;
+  font-family: var(--bodyFont);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: var(--fastFade);
+}
+
+.video-toggle:hover,
+.video-toggle:focus{
+  color: var(--elevationHover);
+  background-color: var(--accent);
+}
+
+.video-authoring{
+  width: min(800px, calc(100% - 2rem));
+  box-sizing: border-box;
+  margin: 0.75rem auto 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background-color: var(--elevation);
+  box-shadow: var(--mainShadow);
+}
+
+.video-authoring[hidden]{
+  display: none;
+}
+
+.video-authoring__header,
+.video-preview__heading,
+.video-authoring__actions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.video-authoring__header h2,
+.video-preview__heading h3{
+  margin: 0;
+  color: var(--content);
+  font-family: var(--titleFont);
+  font-size: 18px;
+}
+
+.video-authoring__header p,
+.video-authoring__note{
+  margin: 0.35rem 0 0;
+  color: var(--tertiary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.video-close{
+  border: 0;
+  padding: 0 0.25rem;
+  color: var(--accent);
+  background: transparent;
+  font-size: 25px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.video-form{
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.video-form__fields{
+  flex: 1;
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.video-form label{
+  color: var(--content);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.video-form input{
+  min-width: 0;
+  height: 32px;
+  box-sizing: border-box;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0 0.55rem;
+  color: var(--content);
+  background-color: var(--elevationHover);
+  font-family: var(--bodyFont);
+  font-size: 13px;
+}
+
+.video-preview-button,
+.video-export,
+.video-cancel{
+  height: 32px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0 0.7rem;
+  font-family: var(--bodyFont);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.video-preview-button,
+.video-export{
+  color: var(--elevation);
+  background-color: var(--accent);
+}
+
+.video-cancel{
+  color: var(--accent);
+  background-color: transparent;
+}
+
+.video-export:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.video-status{
+  margin-top: 0.75rem;
+  color: var(--accent);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.video-status--error{
+  color: var(--content);
+}
+
+.video-preview{
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--elevationHover);
+}
+
+.video-type{
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.video-frame-wrap{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.75rem auto 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.video-frame-wrap--short{
+  width: min(320px, 100%);
+  aspect-ratio: 9 / 16;
+}
+
+.video-frame-wrap iframe{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-authoring__actions{
+  justify-content: flex-start;
+  margin-top: 0.85rem;
+}
+
+@media(max-width: 650px){
+  .video-form{
+    display: block;
+  }
+
+  .video-preview-button{
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .video-form__fields{
+    grid-template-columns: 1fr;
+  }
+
+  .video-form input{
+    width: 100%;
+  }
+}
+
+/* Responsive YouTube embeds generated inside video posts */
+.youtube-embed{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.25rem auto;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.youtube-embed--short{
+  width: min(420px, 100%);
+  aspect-ratio: 9 / 16;
+}
+
+.youtube-embed iframe{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
