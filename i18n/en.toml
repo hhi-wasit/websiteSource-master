@@ -130,14 +130,3 @@ other = "Videos"
 [videos_empty]
 other = "No videos have been added yet. Add a video entry to static/videos/videos.html and rebuild the site."
 
-[videos_watch]
-other = "Watch on YouTube"
-
-[videos_invalid_entry]
-other = "This catalog entry could not be displayed."
-
-[video_type_short]
-other = "YouTube Short · 9:16"
-
-[video_type_regular]
-other = "YouTube video · 16:9"

@@ -38,7 +38,7 @@
         }
 
         if (!/^[A-Za-z0-9_-]{6,}$/.test(id)) return null;
-        return { id, type, watchUrl: `https://www.youtube.com/watch?v=${id}` };
+        return { id, type };
       };
 
       const addText = (element, text) => {
@@ -49,18 +49,6 @@
       const getLocalizedValue = (entry, key) => {
         if (isArabic) return entry[`${key}Ar`] || entry[key] || entry[`${key}En`] || "";
         return entry[`${key}En`] || entry[key] || entry[`${key}Ar`] || "";
-      };
-
-      const formatDate = (value) => {
-        if (!value) return "";
-        const date = new Date(`${value}T00:00:00Z`);
-        if (Number.isNaN(date.getTime())) return String(value);
-        return new Intl.DateTimeFormat(isArabic ? "ar" : "en", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-          timeZone: "UTC"
-        }).format(date);
       };
 
       const createCard = (entry) => {
@@ -85,23 +73,10 @@
         const details = document.createElement("div");
         details.className = "video-card__details";
 
-        const type = document.createElement("p");
-        type.className = "item__meta-category";
-        addText(type, video.type === "short" ? catalog.dataset.shortLabel : catalog.dataset.regularLabel);
-        details.appendChild(type);
-
         const heading = document.createElement("h2");
         heading.className = "video-card__title";
         addText(heading, title);
         details.appendChild(heading);
-
-        const dateText = formatDate(entry.date);
-        if (dateText) {
-          const date = document.createElement("p");
-          date.className = "video-card__date";
-          addText(date, dateText);
-          details.appendChild(date);
-        }
 
         const description = getLocalizedValue(entry, "description");
         if (description) {
@@ -110,14 +85,6 @@
           addText(summary, description);
           details.appendChild(summary);
         }
-
-        const watch = document.createElement("a");
-        watch.className = "video-card__watch item__meta-link";
-        watch.href = video.watchUrl;
-        watch.target = "_blank";
-        watch.rel = "noopener noreferrer";
-        addText(watch, catalog.dataset.watchLabel);
-        details.appendChild(watch);
 
         card.appendChild(details);
         return card;

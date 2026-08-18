@@ -130,14 +130,3 @@ other = "فيديو"
 [videos_empty]
 other = "لم تتم إضافة أي فيديو بعد. أضف مقطعاً إلى static/videos/videos.html ثم أعد بناء الموقع."
 
-[videos_watch]
-other = "مشاهدة على YouTube"
-
-[videos_invalid_entry]
-other = "تعذر عرض هذا الإدخال في الكتالوج."
-
-[video_type_short]
-other = "YouTube Short · 9:16"
-
-[video_type_regular]
-other = "فيديو YouTube · 16:9"
