@@ -1,6 +1,0 @@
-{{- $id := .Get "id" -}}
-{{- $type := .Get "type" | default "regular" -}}
-{{- $title := .Get "title" | default "YouTube video" -}}
-<div class="youtube-embed youtube-embed--{{ $type }}">
-  <iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}?rel=0" title="{{ $title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>

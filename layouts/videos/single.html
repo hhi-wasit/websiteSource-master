@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<main class="videos-page">
+  <div class="post-background">
+    <div class="post-gradient"></div>
+    {{ partial "simple-nav.html" . }}
+  </div>
+
+  <article class="article videos-article">
+    <section class="post__info">
+      <h1 class="post__title">{{ .Title }}</h1>
+    </section>
+
+    <section class="post__content">
+      {{ .Content }}
+    </section>
+  </article>
+</main>
+
+<footer class="footer__single">
+  {{ partial "footer.html" . }}
+</footer>

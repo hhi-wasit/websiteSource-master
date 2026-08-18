@@ -127,53 +127,17 @@ other = "لم أجد هذا الموضوع في قاعدة المعرفة الأ
 [videos_tab]
 other = "فيديو"
 
-[video_tool_title]
-other = "إضافة فيديو من YouTube"
+[videos_empty]
+other = "لم تتم إضافة أي فيديو بعد. أضف مقطعاً إلى static/videos/videos.html ثم أعد بناء الموقع."
 
-[video_tool_description]
-other = "ألصق رابط YouTube، أضف عنواناً، عاين الفيديو، ثم نزّل حزمة منشور Hugo جاهزة."
+[videos_watch]
+other = "مشاهدة على YouTube"
 
-[video_close]
-other = "إغلاق أداة الفيديو"
-
-[video_title_label]
-other = "عنوان الفيديو"
-
-[video_title_placeholder]
-other = "أدخل عنوان منشور الفيديو"
-
-[video_url_label]
-other = "رابط YouTube"
-
-[video_preview]
-other = "معاينة الفيديو"
-
-[video_preview_title]
-other = "المعاينة"
-
-[video_download_bundle]
-other = "تنزيل حزمة Hugo"
-
-[video_cancel]
-other = "مسح"
-
-[video_export_note]
-other = "سيتم تنزيل حزمة ZIP. أضف مجلدها داخل content/post/ في المستودع ثم أعد بناء الموقع. لا تُستخدم بيانات اعتماد المستودع داخل المتصفح."
-
-[video_invalid_url]
-other = "أدخل رابط YouTube صالحاً لفيديو عادي أو Short."
-
-[video_missing_title]
-other = "أضف عنواناً قبل تصدير المنشور."
+[videos_invalid_entry]
+other = "تعذر عرض هذا الإدخال في الكتالوج."
 
 [video_type_short]
 other = "YouTube Short · 9:16"
 
 [video_type_regular]
 other = "فيديو YouTube · 16:9"
-
-[video_ready]
-other = "المعاينة جاهزة. يمكنك تنزيل حزمة Hugo."
-
-[video_exported]
-other = "تم تنزيل حزمة منشور الفيديو بصيغة Hugo."

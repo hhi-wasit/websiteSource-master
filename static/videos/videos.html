@@ -1,0 +1,27 @@
+<!--
+  Ahmed Azeez video catalog
+
+  Add one window.AhmedVideos.push({...}) block for every video.
+  The page detects normal YouTube videos and Shorts from the URL:
+    - https://www.youtube.com/watch?v=VIDEO_ID  -> 16:9
+    - https://www.youtube.com/shorts/VIDEO_ID     -> 9:16
+
+  title is the fallback title in both languages.
+  titleAr and titleEn are optional localized titles.
+  description, descriptionAr, and descriptionEn are optional.
+  date is optional and should use YYYY-MM-DD.
+-->
+<script>
+  window.AhmedVideos = window.AhmedVideos || [];
+
+  // Example:
+  // window.AhmedVideos.push({
+  //   title: "Add a video title",
+  //   titleAr: "أضف عنوان الفيديو",
+  //   titleEn: "Add a video title",
+  //   url: "https://www.youtube.com/watch?v=VIDEO_ID",
+  //   descriptionAr: "وصف مختصر للفيديو.",
+  //   descriptionEn: "A short description of the video.",
+  //   date: "2026-08-18"
+  // });
+</script>
