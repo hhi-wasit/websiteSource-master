@@ -7,3 +7,11 @@ layout = "single"
 <p class="videos-intro">This page contains educational and academic videos. Add videos through the single catalog file at <code>static/videos/videos.html</code>; they appear here separately from the post archive.</p>
 
 {{< videos-catalog >}}
+
+  <script>
+  window.AhmedVideos.push({
+    title: "My video title",
+    url: "https://www.youtube.com/watch?v=VIDEO_ID",
+    description: "A short description of the video."
+  } );
+</script>
