@@ -1,37 +1,37 @@
 ---
-title: "Python في وبائيات الصحة العامة"
+title: "Python for Public Health Epidemiology"
 type: post
 date: 2026-08-16
 displayDate: "2026"
-slug: "python-for-public-health-epidemiology"
 authors:
   - Ahmed Azeez
 categories:
-  - الصحة العامة
+  - Public Health
 tags:
-  - الصحة العامة
-  - علم الوبائيات
+  - Public Health
+  - Epidemiology
   - Python
-  - إحصاء R
+  - RStats
   - Google Colab
-  - علم البيانات
-  - المعلوماتية الصحية
-  - البحث القابل لإعادة الإنتاج
+  - Data Science
+  - Health Informatics
+  - Reproducible Research
 thumbnail: "thumbnail.png"
-imageAlt: "رسم توضيحي عن Python في وبائيات الصحة العامة"
-description: "تأمل عملي في كيفية دعم Python لتحليل الترصد والتصور والنمذجة وسير العمل القابل لإعادة الإنتاج في وبائيات الصحة العامة."
+imageAlt: "Python for public health epidemiology infographic"
+description: "A practical reflection on how Python can support surveillance analysis, visualization, modelling, and reproducible workflows in public health epidemiology."
+slug: "python-for-public-health-epidemiology"
 ---
 
-## Python في وبائيات الصحة العامة
+## Python for Public Health Epidemiology
 
-مساهمة متواضعة في النقاش حول الأدوات مفتوحة المصدر في علم الوبائيات.
+A modest contribution to the discussion of open-source tools in epidemiology.
 
-نشأ هذا الرسم التوضيحي من فترة سابقة من التعلم الذاتي للغة Python في مجال وبائيات الصحة العامة. وعلى الرغم من أن لغة R تحظى باهتمام كبير في الممارسة الوبائية، فقد أظهر لي التعلم الذاتي والخبرة المهنية أيضاً أن Python يمكن أن تدعم العمل العملي في تحليل الترصد، والتصور، والنمذجة، ودفاتر الملاحظات القابلة لإعادة الإنتاج.
+This infographic grew from an earlier period of self-study in Python for public health epidemiology. Although R receives considerable attention in epidemiologic practice, my self-study and professional experience have also shown that Python can support practical work in surveillance analysis, visualization, modelling, and reproducible notebooks.
 
-لا يتعلق الأمر بالمفاضلة بين Python وR. فكلاهما يمكن أن يسهم في ممارسة وبائية سليمة عند استخدامه بصورة مناسبة.
+The point is not Python versus R. Both can contribute to sound epidemiologic practice when used appropriately.
 
-{{< inline-image "python-public-health-infographic.png" "رسم توضيحي عن Python في وبائيات الصحة العامة" >}}
+{{< inline-image "python-public-health-infographic.png" "Python for public health epidemiology infographic" >}}
 
-يمكن الاطلاع على المنشور الأصلي لـ **Dr. GV Fant, DSc, PhD, MACE** [هنا](https://lnkd.in/gkCqEmVf).
+The original post by **Dr. GV Fant, DSc, PhD, MACE** is available [here](https://lnkd.in/gkCqEmVf).
 
-#الصحة_العامة #علم_الوبائيات #Python #إحصاء_R #Google_Colab #علم_البيانات #المعلوماتية_الصحية #البحث_القابل_لإعادة_الإنتاج
+#PublicHealth #Epidemiology #Python #RStats #GoogleColab #DataScience #HealthInformatics #ReproducibleResearch

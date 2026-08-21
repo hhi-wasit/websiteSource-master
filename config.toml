@@ -1,8 +1,8 @@
 baseURL = "https://hhi-wasit.github.io/websiteSource-master/"
-defaultContentLanguage = "ar"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-languageCode = "ar"
-title = "أحمد عزيز | الموقع الأكاديمي"
+languageCode = "en-us"
+title = "Ahmed Azeez | Academic Website"
 theme = "data-science"
 disqusShortname = ""
 enableEmoji = true
@@ -11,14 +11,13 @@ preserveTaxonomyNames = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-
 [taxonomies]
   author = "authors"
   tag = "tags"
   category = "categories"
-
 [params]
   author = "Ahmed Azeez"
+  description = "Academic website of Ahmed Azeez, a public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."
   orcid = "https://orcid.org/0000-0002-9004-9689"
   website = "https://ahmed-azeez.github.io/"
   images = ['introImage-light.png']
@@ -29,7 +28,6 @@ preserveTaxonomyNames = true
   custom = true
   highlightjsThemeLight = ""
   highlightjsThemeDark = ""
-
 [params.social]
   email = "mailto:ahmed.azeez1987@gmail.com"
   twitter = ""
@@ -44,21 +42,3 @@ preserveTaxonomyNames = true
   patreon = ""
   pinterest = ""
   youtube = ""
-
-[languages.ar]
-  languageName = "العربية"
-  languageCode = "ar"
-  weight = 1
-  title = "أحمد عزيز | الموقع الأكاديمي"
-  contentDir = "content"
-  [languages.ar.params]
-    description = "الموقع الأكاديمي لأحمد عزيز، الباحث والمحاضر في الصحة العامة والمتخصص في وبائيات الأمراض المعدية والترصد والنمذجة والإحصاء الحيوي وتطوير الأدوات البحثية."
-
-[languages.en]
-  languageName = "English"
-  languageCode = "en-us"
-  weight = 2
-  title = "Ahmed Azeez | Academic Website"
-  contentDir = "content"
-  [languages.en.params]
-    description = "Academic website of Ahmed Azeez, a public health researcher and lecturer specialising in infectious disease epidemiology, surveillance, modelling, biostatistics, and instrument development."

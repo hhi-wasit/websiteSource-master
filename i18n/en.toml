@@ -1,9 +1,3 @@
-[language_toggle]
-other = "En–Ar"
-
-[language_switch_aria]
-other = "Switch between Arabic and English"
-
 [enable_dark_mode]
 other = "Enable Dark Mode"
 

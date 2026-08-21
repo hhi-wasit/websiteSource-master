@@ -109,8 +109,7 @@
 
     const answerQuestion = async (question) => {
       const allKnowledge = await loadKnowledge();
-      const language = root.dataset.language === "ar" ? "ar" : "en";
-      const profile = allKnowledge[language] || allKnowledge.en;
+      const profile = allKnowledge.en || allKnowledge;
       const contextSections = relevantSections(question, profile);
       const context = contextSections.length
         ? contextSections.map((section) => section.value).join("\n\n")
@@ -124,7 +123,7 @@
       try {
         const activeEngine = await loadEngine();
         setStatus(copy.generating);
-        const languageName = language === "ar" ? "Arabic" : "English";
+        const languageName = "English";
         const response = await activeEngine.chat.completions.create({
           messages: [
             {

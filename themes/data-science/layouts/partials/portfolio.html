@@ -31,7 +31,6 @@
         {{ with .Site.GetPage "videos" }}
           <a id="video-toggle" class="video-toggle" href="{{ .RelPermalink }}">{{ i18n "videos_tab" }}</a>
         {{ end }}
-        {{ partial "language-toggle.html" . }}
         <button class="theme-toggle" aria-label="{{ i18n "enable_dark_mode" }}" data-enable-dark="{{ i18n "enable_dark_mode" }}" data-enable-light="{{ i18n "enable_light_mode" }}">
           {{ partial "icon.html" "moon" }}
           {{ partial "icon.html" "sun" }}

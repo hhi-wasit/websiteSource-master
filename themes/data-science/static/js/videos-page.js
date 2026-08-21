@@ -13,7 +13,6 @@
       });
       grid.append(...columns);
       const entries = Array.isArray(window.AhmedVideos) ? window.AhmedVideos : [];
-      const isArabic = document.documentElement.lang.toLowerCase().startsWith("ar");
 
       const parseYouTubeUrl = (value, requestedType) => {
         let parsed;
@@ -52,10 +51,7 @@
         return element;
       };
 
-      const getLocalizedValue = (entry, key) => {
-        if (isArabic) return entry[`${key}Ar`] || entry[key] || entry[`${key}En`] || "";
-        return entry[`${key}En`] || entry[key] || entry[`${key}Ar`] || "";
-      };
+      const getLocalizedValue = (entry, key) => entry[key] || entry[`${key}En`] || "";
 
       const createCard = (entry) => {
         const video = parseYouTubeUrl(entry.url, entry.type);

@@ -1,35 +1,35 @@
 ---
-title: "خوارزميات التعلم الآلي"
+title: "Machine Learning Algorithms"
 type: post
 date: 2026-08-15
 displayDate: "2026"
-slug: "machine-learning-algorithms"
 authors:
   - Ahmed Azeez
 categories:
-  - التعلم الآلي
+  - Machine Learning
 tags:
-  - الذكاء الاصطناعي
-  - التعلم الآلي
-  - الذكاء الاصطناعي الوكيلي
-  - عمليات الوكلاء
+  - AI
+  - Machine Learning
+  - Agentic AI
+  - AgentOps
   - Python
-  - الذكاء الطرفي
+  - Edge AI
 thumbnail: "diagram.png"
-imageAlt: "خوارزميات التعلم الآلي مجمعة إلى تعلم خاضع للإشراف وغير خاضع للإشراف وشبه خاضع للإشراف وتعلم معزز"
-description: "مقدمة موجزة إلى كيفية تعلم خوارزميات التعلم الآلي من البيانات واكتشاف الأنماط ودعم التنبؤ واتخاذ القرار."
+imageAlt: "Machine learning algorithms grouped by supervised, unsupervised, semi-supervised, and reinforcement learning"
+description: "A concise introduction to how machine-learning algorithms learn from data, recognize patterns, and support prediction and decision-making."
+slug: "machine-learning-algorithms"
 ---
 
-خوارزمية التعلم الآلي (ML) هي إجراء حاسوبي أو نموذج رياضي يتيح للحواسيب التعلم من البيانات، والتعرف على الأنماط الخفية، واتخاذ القرارات من دون برمجتها بصورة صريحة لمهمة محددة. وبدلاً من اتباع قواعد ثابتة ومكتوبة مسبقاً، تعمل هذه الخوارزميات على تحسين دقة التنبؤ بصورة تدريجية كلما تعرضت لمزيد من البيانات.
+A machine learning (ML) algorithm is a computational procedure or mathematical model that allows computers to learn from data, recognize hidden patterns, and make decisions without being explicitly programmed for a specific task. Instead of following static, hard-coded rules, these algorithms dynamically improve their prediction accuracy as they are exposed to more data over time.
 
-يوضح الرسم المرافق خريطة عامة لعائلات الخوارزميات الشائعة، ومنها التعلم الخاضع للإشراف، والتعلم غير الخاضع للإشراف، والتعلم شبه الخاضع للإشراف، والتعلم المعزز. كما يعرض أمثلة مثل التصنيف، والانحدار، والتجميع، وقواعد الارتباط، واكتشاف الشذوذ، وتحسين السياسات، والتعلم Q.
+The accompanying diagram provides a high-level map of common algorithm families, including supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning. It also shows examples such as classification, regression, clustering, association, anomaly detection, policy optimization, and Q-learning.
 
-{{< inline-image "diagram.png" "خوارزميات التعلم الآلي" >}}
+{{< inline-image "diagram.png" "Machine learning algorithms" >}}
 
-### الموضوعات
+### Topics
 
-#الذكاء_الاصطناعي #التعلم_الآلي #الذكاء_الاصطناعي_الوكيلي #عمليات_الوكلاء #Python #TheIncubatorHub #SLMs #الذكاء_الطرفي
+#AI #MachineLearning #AgenticAI #AgentOps #Python #TheIncubatorHub #SLMs #EdgeAI
 
-### المصدر
+### Attribution
 
-أُعيد نشر النص المقدم في هذا المنشور بعد الحصول على الإذن. ويُنسب الرسم المرافق إلى **ML Tut** كما يظهر في الصورة المصدرية، وقد جرى تحسينه لعرضه بوضوح أكبر على الويب من دون تغيير موضوعه أو تصنيفاته الأساسية.
+This post reproduces the supplied text with permission. The accompanying diagram is attributed to **ML Tut**, as identified in the source image, and has been enhanced for clearer web display without changing its subject matter or category structure.

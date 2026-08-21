@@ -1271,7 +1271,7 @@ footer{
 }
 
 
-/* Arabic-first language controls and RTL support */
+/* Shared language-neutral control layout */
 .control-group,
 .toggle-container{
   display: flex;
@@ -1280,33 +1280,6 @@ footer{
   gap: 0.35rem;
 }
 
-.language-toggle,
-.language-toggle:visited{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 42px;
-  height: 28px;
-  padding: 0 7px;
-  border: 1px solid var(--accent);
-  border-radius: var(--radius);
-  color: var(--accent);
-  background-color: transparent;
-  font-family: var(--annotationFont);
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1;
-  text-decoration: none;
-  transition: var(--fastFade);
-  white-space: nowrap;
-}
-
-.language-toggle:hover,
-.language-toggle:focus{
-  color: var(--elevationHover);
-  background-color: var(--accent);
-  text-decoration: none;
-}
 
 .control-group .theme-toggle,
 .toggle-container .theme-toggle{
