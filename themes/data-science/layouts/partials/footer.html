@@ -8,15 +8,15 @@
   </div>
 
   <div class='footer-more'>
-    {{ with .Site.GetPage "about" }}<a href="{{ .RelPermalink }}">{{ i18n "about" }}</a>{{ end }}{{ with .Site.GetPage "contact" }}<a href='{{ .RelPermalink }}'>{{ i18n "contact" }}</a>{{ end }}
+    {{ with .Site.GetPage "about" }}<a href="{{ .RelPermalink }}">About</a>{{ end }}{{ with .Site.GetPage "contact" }}<a href='{{ .RelPermalink }}'>Contact</a>{{ end }}
   </div>
 
   <div class='credits'>
     <div class='credits-people'>
-      <p><a href='{{ .Site.Home.RelPermalink }}'>Ahmed Azeez</a> · {{ i18n "public_health_researcher" }}</p>
+      <p><a href='{{ .Site.Home.RelPermalink }}'>Ahmed Azeez</a> · Public health researcher and lecturer</p>
     </div>
     <div class='credits-location'>
-      <p>{{ i18n "academic_website" }}</p>
+      <p>Academic website for research, teaching, and public health scholarship</p>
     </div>
 
 

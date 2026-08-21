@@ -3,8 +3,8 @@
   <div class="portfolio__filters">
     <div class="filters__content">
       <div class="filters-category">
-        <select class="category-dropdown" aria-label="{{ i18n "all_categories" }}">
-          <option>{{ i18n "all_categories" }}</option>
+        <select class="category-dropdown" aria-label="All Categories">
+          <option>All Categories</option>
           {{ range $key, $value := .Site.Taxonomies.categories }}
             <option>{{ $key | humanize }}</option>
           {{ end }}
@@ -12,14 +12,14 @@
       </div>
 
       <div class="filters-tags">
-        <button class='filters-click' aria-label="{{ i18n "filter" }}" aria-expanded="false">
-          <p class='tags-meta'>{{ i18n "filter" }}</p>
+        <button class='filters-click' aria-label="Filters" aria-expanded="false">
+          <p class='tags-meta'>Filters</p>
           {{ partial "icon.html" "chevron-down" }}
           {{ partial "icon.html" "chevron-up" }}
         </button>
         <div class='filters-selected'>
           {{ range $key, $value := .Site.Taxonomies.tags }}
-            <button class='item__meta-tag tag-selected' hidden="true" data-tag="{{ $key }}" aria-pressed="true" aria-label="{{ printf (i18n "filter_by_tag") $key }}">
+            <button class='item__meta-tag tag-selected' hidden="true" data-tag="{{ $key }}" aria-pressed="true" aria-label="{{ printf "Filter by posts tagged %s" $key }}">
               <p class="tag-text">{{ $key }}</p>
               {{ partial "icon.html" "times" }}
             </button>
@@ -29,9 +29,9 @@
 
       <div class="control-group" dir="ltr">
         {{ with .Site.GetPage "videos" }}
-          <a id="video-toggle" class="video-toggle" href="{{ .RelPermalink }}">{{ i18n "videos_tab" }}</a>
+          <a id="video-toggle" class="video-toggle" href="{{ .RelPermalink }}">Videos</a>
         {{ end }}
-        <button class="theme-toggle" aria-label="{{ i18n "enable_dark_mode" }}" data-enable-dark="{{ i18n "enable_dark_mode" }}" data-enable-light="{{ i18n "enable_light_mode" }}">
+        <button class="theme-toggle" aria-label="Enable Dark Mode" data-enable-dark="Enable Dark Mode" data-enable-light="Enable Light Mode">
           {{ partial "icon.html" "moon" }}
           {{ partial "icon.html" "sun" }}
         </button>
@@ -44,7 +44,7 @@
       <div class='drawer-gradient'></div>
       <div class='drawer-tags'>
         {{ range $key, $value := .Site.Taxonomies.tags }}
-          <button class='item__meta-tag drawer-tag' data-drawertag="{{ $key }}" aria-pressed="false" aria-label="{{ printf (i18n "filter_by_tag") $key }}">
+          <button class='item__meta-tag drawer-tag' data-drawertag="{{ $key }}" aria-pressed="false" aria-label="{{ printf "Filter by posts tagged %s" $key }}">
             <p class="tag-text drawer-tag">{{ $key }}</p>
             {{ partial "icon.html" "plus" }}
             {{ partial "icon.html" "times" }}
@@ -73,7 +73,7 @@
                   <p class='item__meta-category'>{{ . }}</p>
                 {{ end }}
                 <div class="details__title"><h4>{{ .Title }}</h4></div>
-                <div class="details__date"><p>{{ .Date.Format "January 2 2006" }} • {{ .ReadingTime }} {{ i18n "min_read" }}</p></div>
+                <div class="details__date"><p>{{ .Date.Format "January 2 2006" }} • {{ .ReadingTime }} min read</p></div>
                 <div class="details__desc">
                   <p>{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | safeHTML }}{{ end }}</p>
                 </div>

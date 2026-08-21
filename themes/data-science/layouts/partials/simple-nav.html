@@ -2,14 +2,14 @@
 <nav class="nav__simple">
   <div class="nav__content">
     <div class="goHome">
-      <a href="{{ .Site.Home.RelPermalink }}" aria-label="{{ i18n "go_home" }}">{{ partial "icon.html" "arrow-left" }} <span class='scroll-text'>{{ i18n "go_home" }}</span></a>
+      <a href="{{ .Site.Home.RelPermalink }}" aria-label="Back to All">{{ partial "icon.html" "arrow-left" }} <span class='scroll-text'>Back to All</span></a>
     </div>
 
     <p class="nav__title">{{ $.Site.Params.author }} </p>
 
     <div class='toggle-container' dir="ltr">
-      <button class="theme-toggle" aria-label="{{ i18n "enable_dark_mode" }}" data-enable-dark="{{ i18n "enable_dark_mode" }}" data-enable-light="{{ i18n "enable_light_mode" }}">
-        <span class="scroll-text theme-text">{{ i18n "enable_dark_mode" }}</span>
+      <button class="theme-toggle" aria-label="Enable Dark Mode" data-enable-dark="Enable Dark Mode" data-enable-light="Enable Light Mode">
+        <span class="scroll-text theme-text">Enable Dark Mode</span>
         <div class="single-toggle">
           {{ partial "icon.html" "moon" }}
           {{ partial "icon.html" "sun" }}
